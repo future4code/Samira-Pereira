@@ -22,45 +22,41 @@ function inverteArray(array) {
 function retornaNumerosParesElevadosADois (array) {
    // implemente sua lógica aqui
    let arrayDePar = []
-   for(i=0; i<array.length; i++){
-      arrayCopia = array[i] % 2 ===0;
-      console.log(arrayCopia)
-      
-   
-      if(arrayCopia === 0){
-          
-      function imprimiPar(array){
-        arrayDePar.push(arrayCopia[i]===array[i])
+   for(i=0; i<array.length-1; i++){
+       
+      if(array[i]%2 === 0){
+         arrayDePar.push(array[i]**2)
              }
+             return arrayDePar
           }
-         }
-      
-         return arrayDePar[i]**2
-   }
+             
+      }
 
    retornaNumerosParesElevadosADois()
-//Exercício 3
+
+
+   //solução 2
+   function retornaNumerosParesElevadosADois (array) {
+      // implemente sua lógica aqui
+      const novoArray = array.filter((num)=>{
+         return num%2 === 0
+      }).map((num)=>{
+         return num*num
+      })
+   
+      return novoArray
+   }
+
+   //Exercício 3
 
 function retornaNumerosPares (array) {
    // implemente sua lógica aqui
-   for(i=0; i<array.length-1; i++){
-      arrayCopia = array[i] % 2;
-      console.log(arrayCopia)
-   }
-      if(arrayCopia === 0){
-          console.log(arrayCopia[i])
+   const novoArray = array.filter((num)=>{
+      return num%2 === 0
+   })
+        
       }
-      let newArray= [] 
-      newArray.push(arrayCopia[i]===array[i])
-             
-          
-      
-          console.log(newArray)
-      }
-   
-
    retornaNumerosPares()
-
 //Exercício 4
 
 function retornaMaiorNumero(array) {
@@ -85,32 +81,90 @@ function retornaMaiorNumero(array) {
 
 function retornaQuantidadeElementos (array) {
    // implemente sua lógica aqui
-   return array.length()
+   //console.log(array.length)
+   return array.length
 }
+retornaQuantidadeElementos()
+
 
 //Exercício 6
 
 function retornaExpressoesBooleanas() {
    // implemente sua lógica aqui
+   const booleano1 = true
+   const booleano2 = false
+   const booleano3 = !booleano2 
+   const booleano4 = !booleano3 
+
+   const respostasA = booleano1 && booleano2 && !booleano4 
+   const respostasB = (booleano1 && booleano2) || !booleano3
+   const respostasC = (booleano2 || booleano3) && (booleano4 || booleano1)
+   const respostasD = !(booleano2 && booleano3) || !(booleano1 && booleano3)
+   const respostasE = !(booleano1) && !(booleano3) || (!booleano4 && booleano3 && booleano3)
+
+   console.log(respostasA, respostasB, respostasC, respostasD, respostasE)
 }
+retornaExpressoesBooleanas()
 
-//Exercício 7
 
+//Exercicio 7
 function retornaNNumerosPares(n) {
    // implemente sua lógica aqui
+   for(let i=0; i<n; i++){
+      console.log(i*2)
+   }
 }
+retornaNNumerosPares()
 
 // Exercício 8
 
 function checaTriangulo(a, b, c) {
   // implemente sua lógica aqui
+ 
+  switch (triangulo){
+     case (a===b===c):
+     return'Equilátero'
+       break;
+     case(a===b && b===c && a!==c || a===c && b===c && a!==b):
+     return'Isósceles'
+        break ;
+     default:
+      return 'Escaleno' 
+      break;
+  }
+   
 }
+
+checaTriangulo()
+
 
 // Exercício 9
 
 function comparaDoisNumeros(num1, num2) {
    // implemente sua lógica aqui
-}
+   
+   console.log(num1,num2)
+   const maior = num1
+   const menor = num1
+    if (num2 > maior){
+       maior = num2
+    }else if (num2 < num1){
+       menor = num2
+    }
+    return ("Maior numero =" +maior)
+
+    
+    for(maior % 2 === 0);{
+      console.log("O valor maior é divisivel pelo menor:", true)
+    }
+    const diferenca= (maior - menor)
+    console.log("A diferença é", diferenca)
+    }
+   
+  
+  
+comparaDoisNumeros()
+
 
 // Exercício 10
 
@@ -128,12 +182,24 @@ function ordenaArray(array) {
 
 function filmeFavorito() {
    // implemente sua lógica aqui
+
+       let objeto = {
+         nome:'O Senhor dos Aneis',
+         ano: Number(2001),
+         diretor:'Peter Jackson',
+         atores:['Elijah Wood', 'Liv Tayler', 'Ian McKellen','Sean Astin' ]  }
+   
+   
+   
+      return objeto }
 }
 
 // Exercício 13
 
 function imprimeChamada() {
    // implemente sua lógica aqui
+  const chamada(...objeto) 
+  return 'Venha assistir ao filme $.{nome}'
 }
 
 // Exercício 14
