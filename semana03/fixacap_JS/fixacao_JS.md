@@ -7,6 +7,8 @@ function calculaSalario(carrosVendidos, valorVendas) {
   return salarioFinal
   
 }
+
+calculaSalario
 ```
 
 
