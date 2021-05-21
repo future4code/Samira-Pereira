@@ -1,0 +1,108 @@
+/*limpar formatacoes padrões*/
+*{
+    padding: 0;
+    margin: 0;
+}
+
+/*
+***Formatacoes gerais***
+*/
+
+body{
+    font-size: 1em;
+    font-family: 'Trebuchet MS', Helvetica, sans-serif;
+    background: #ccc  ;
+
+}
+
+/*
+***Layout***
+*/
+
+
+/*
+***Area header***
+*/
+#area-cabecalho{
+    background: rgb(230, 106, 106)  ;
+    padding: 15px;
+    text-align: center;
+}
+
+#area-logo, #area-menu, #areaprincipal{
+    padding: 10px;
+
+}
+
+.branco {
+    color: white;
+}
+
+
+
+/***menu***/
+a{
+    text-decoration: none;
+}
+
+a:link, a:visited{
+    color: rgb(61, 58, 58);
+    padding: 8px 12px ;
+}
+
+a:hover{
+    color: #f7b600;
+   
+}
+
+
+
+/*
+***Area body***
+*/
+#area-principal{
+    background: white;
+    width: 920px;
+    margin: 0 auto;
+}
+
+
+#addAluno{
+    width: 600px;
+    border: 5px solid indianred;
+    text-align: center;
+    padding: 20px;
+    margin: auto;
+    font-size: larger;
+    padding: 15px auto;
+
+}
+
+
+
+
+
+#lista {
+    width: 600px;
+    border: 5px solid indianred;
+    text-align: center;
+    padding: 20px;
+    margin: auto;
+    margin-top: 30px;
+    font-size: larger;
+    padding: 15px auto;
+}
+
+
+
+
+/*
+***Area footer***
+*/
+
+#area-rodape{
+    clear: both;
+    padding: 15px;
+    text-align: center;
+    
+}
