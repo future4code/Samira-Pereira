@@ -1,0 +1,105 @@
+/* ---Estrutura Site ---*/
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    height: 1080px;
+}
+/* ---cabecalho---*/
+
+header{
+    height: 40px;
+    background-color: mediumvioletred;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    
+}
+/*-- conteudo principal*/
+
+main{
+    margin-top: 15px;
+    display: grid;
+    background-color:white; 
+    grid-template-columns: 250px 1fr   1fr;
+   
+}
+
+/*---menu lateral suspenso*/
+nav{
+    display: grid;
+    background-color: #f2d0e0 ;
+    grid-template-rows: 20px;
+
+}
+nav ul  {
+    display: grid;
+    text-transform: uppercase;
+    row-gap: 5px;
+    margin-right: 5px;
+}
+
+.img{
+    float: left;
+    margin-right: 5px;
+}
+
+.btn{
+    float: right;
+
+}
+
+/*--- conteudo principal---*/
+aside{
+    display: grid;
+    background-color:whitesmoke ;
+    float:right;
+    grid-template-columns: 1fr 1fr 1fr 1fr  ;
+    column-gap: 5px;
+    padding: 5px;
+}
+
+figure{
+    
+    column-gap: 5px;
+    row-gap: 5px;
+    padding: 5px;
+    margin: 5px auto;
+    
+}
+
+figcaption{
+    text-align: center;
+    padding: 5px;
+    border-bottom-right-radius: black;
+}
+
+
+h4{
+    font-size: 1.2em;
+    padding: 5px;
+}
+
+h5{
+    font-size: 0.7em;
+    text-align: ;
+}
+.item{
+    height: auto;
+
+}
+
+/*---rodape--- */
+
+footer{
+    
+    height: 30px;
+    background-color: mediumvioletred;
+    text-align: center;
+           
+}
