@@ -1,0 +1,127 @@
+/* formatacao geral*/
+*{
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+ font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+     background-color: rgb(20,20,20);
+}
+
+/* cabecalho */
+header{
+     padding: 8px 0;
+     background-color: rgb(40,40,40);
+}
+
+.center{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 2%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/* logo */
+.logo{
+    align-items: center;
+    display: inline-block;
+    vertical-align: middle;
+    
+}
+#s{
+    max-width: 60px;
+    width: 100%;
+}
+
+
+.logo img{
+    align-content: center;
+    max-width: 120px;
+    width: 100%;
+    
+}
+
+/* menu navegação*/
+.menu{
+   
+    width: 40%;
+}
+
+.menu-items{
+    padding: 0 20px;
+    margin-top: 10px;
+    display: inline-block;
+}
+
+.menu-items a{
+    
+    color: rgb(120,120,120);
+    margin-right: 10px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.menu-items a:hover{
+    color: white;
+}
+
+.search{
+    width: 60%;
+    text-align: right;
+}
+
+.input-search{
+    position: relative;
+    width: 200px;
+    display: inline-block;
+}
+
+.input-search i{
+    position: absolute;
+    left: 4px;
+    top: 15px;
+    color: rgb(100,100,100);
+
+}
+
+.input-search input[type="text"]{
+    width: 100%;
+    height: 30px;
+    border: 1px solid rgb(120,120,120);
+    margin: 9px 0;
+    padding-left: 24px;
+    background-color: rgb(40,40,40);
+    color: white;
+}
+
+/*-- area principal com js*/
+
+.banner-principal{
+    width: 100%;
+    height: 400px;
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 100px;
+}
+
+.main h2{
+    color: white;
+    width: 100%;
+    
+}
+
+.card-movie{
+    width: 20%;
+}
+
+.card-movie img{
+    width: 100%;
+    transition: 1s;
+}
+
+.card-movie img:hover{
+    transform: (1.1,1.1);
+}
