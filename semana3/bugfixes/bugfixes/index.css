@@ -76,12 +76,24 @@ div img {
 }
 
 #container-para-comprar {
+    
     background-color: #e7eb90;
+    align-content: center;
+    padding-top: 300px;
 }
 
 #container-para-comprar>p {
     color: #c44f00;
     padding: 100px 0;
+    font-size: 60px;
+    
+}
+
+#container-para-comprar> 
+a, button {
+    color: #c44f00;
+    align-content: center;
+    margin-top: 150px;
     font-size: 60px;
 }
 
