@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import { gray } from "../../constantes/colors";
+import { gray } from "../constantes/colorpattern";
 
 export const PageContainer = styled.div`
   width: 100%;

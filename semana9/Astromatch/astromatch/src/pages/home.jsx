@@ -1,6 +1,6 @@
 import React from 'react'
-import Header from '../../components/header'
-import Card from '../../components/cards';
+import Header from '../../components/Header'
+import Card from '../../components/Cards';
 import ButtonMatch from '../../components/ButtonMatch';
 
 import Refuse from '../../assets/refuse-color.png'

@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import { gray, softblue } from "../../constantes/colorpatterns";
+import { gray, softblue } from "../constantes/colorpattern";
 
 export const HeaderTag = styled.header`
   background-color: ${gray};

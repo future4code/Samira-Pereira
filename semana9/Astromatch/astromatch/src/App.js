@@ -3,7 +3,7 @@ import axios from 'axios'
 import register from './pages/register'
 import home from './pages/home'
 import match from './pages/match'
-import header from './components/header'
+import header from './components/Header'
 import { urlAPI } from './constantes/api'
 
 import { AppContainer, Loader, AlertMatch } from './Styled'
@@ -115,14 +115,14 @@ function App() {
       switch (currentPage) {
         case 'register':
           return (
-            <Register
+            <register
               RegisterUser={RegisterUser}
               user={user}
             />
           )
         case 'home':
           return (
-            <Home
+            <home
               profileToChose={profileToChose}
               postChoosePerson={postChoosePerson}
               currentPage={currentPage}
@@ -132,7 +132,7 @@ function App() {
           )
         case 'matches':
           return (
-            <Match
+            <match
               currentPage={currentPage}
               changePage={changePage}
               putClear={putClear}
@@ -142,7 +142,7 @@ function App() {
         default:
           return (
             <>
-              <Header
+              <header
                 currentPage={currentPage}
                 changePage={changePage}
                 putClear={putClear}

@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import { gray, softblue } from "../../constantes/colors";
+import { gray, softblue } from "../constantes/colorpattern";
 
 export const PageContainer = styled.div`
   background-color: ${gray};
