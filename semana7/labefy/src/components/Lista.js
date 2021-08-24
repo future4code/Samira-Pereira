@@ -81,7 +81,7 @@ export default class ListPlayer extends React.Component {
         const url = 'https://us-central1-labenu-apis.cloudfunctions.net/labefy/playlists';
             axios.get(url, {
                 headers: {
-                    Authorization: "elaini-coelho-molina"
+                    Authorization: "Samira-Pereira-Molina"
                 }
             })
             .then((res) => {
@@ -98,7 +98,7 @@ export default class ListPlayer extends React.Component {
         const url = `https://us-central1-labenu-apis.cloudfunctions.net/labefy/playlists/${id}`
         axios.delete(url, {
             headers: {
-                Authorization: "elaini-coelho-molina"
+                Authorization: "Samira-Pereira-Molina"
             }
         })
         .then((res) => {

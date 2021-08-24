@@ -1,7 +1,7 @@
 import React from 'react'
 import logo from '../img/logo_lgbt.png'
 import styled from 'styled-components'
-import telainicial from './components/AdicionaLista'
+import telainicial from './AdicionaLista'
 
 const ImageLogo = styled.img ` 
 width: 55px;
@@ -50,7 +50,7 @@ export default class Header extends React.Component {
                 <Left>
 
                 <ImageLogo src={logo} alt="Logo-Labefy-Pride"/>
-                <Name>LABEFY</Name>
+                <Name>PRIDEFY</Name>
                 </Left>
 
                 <Rigth>

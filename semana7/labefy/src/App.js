@@ -2,7 +2,7 @@ import React from 'react';
 import Header from './components/Header'
 import Footer from './components/Footer'
 import PlayList from './components/Adiciona'
-import ListPlay from './components/List'
+import ListPlay from './components/Lista'
 import MusicaArtista from './components/AdicionaLista'
 
 export default class App extends React.Component {
