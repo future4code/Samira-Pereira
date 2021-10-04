@@ -1,0 +1,12 @@
+{
+  "name": "semana15",
+  "version": "1.0.0",
+  "description": "\"aula-41\"",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Samira_pereira",
+  "license": "ISC",
+  "keywords": []
+}
