@@ -1,0 +1,137 @@
+
+/*limpar formatacoes padrões*/
+*{
+    padding: 0;
+    margin: 0;
+}
+
+
+body{
+    background: white  ;
+    font-size: 1em;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+/*
+****Layout ****
+*/
+
+#area-cabecalho {
+    
+    background-color: rgba(255, 99, 71, 0.65);
+    padding: 15px;
+    text-align: center;
+    
+}
+
+#area-logo, #area-menu{
+    padding: 10px;
+
+}
+
+
+/*
+***Formatações do Menu***
+*/
+
+a {
+    text-decoration: none;
+}
+a:link, a:visited{
+    color: #080703;
+    
+}
+
+a:hover{
+    color: blue;
+}
+
+/*
+***Formatações Gerais***
+*/
+
+h1{
+    color: #4e4e4e;
+    font-size: 2.5em;
+}
+
+h2{ 
+    color: #4e4e4e;
+    font-size: 1.5em;
+    text-align: center;
+
+}
+h3, h4{ 
+    color: #4e4e4e;
+    font-size: 1.0em;
+    text-align: center;
+
+}
+
+.data-postagem{
+    font-size: 0.8em;
+    border-bottom: 1px;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+}
+/*
+***Formatação conteúdo***
+*/
+#area-principal{
+    background: white ;
+    width: 1200px;
+    margin: 0 auto;
+    padding: 15px;
+    margin-bottom: 10px;
+     ;
+
+}
+
+#postagem-titulo{
+    padding: 10px;
+    background: rgba(255, 99, 71, 0.65) ;
+    margin-bottom: 20px;
+
+}
+.postagem-1, .postagem-2, .postagem-3, .postagem-4{
+    padding: 10px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    
+}
+
+
+    
+}
+.postagem{
+    padding: 10px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+   
+}
+#area-direita{
+    
+    background: white;
+    width: 300px;
+    margin: 0 auto;
+    float: right;
+    margin-top: 10px;
+    
+}
+
+#area-lateral{
+   
+    background: white;
+    width: 900px;
+    float: left;
+    margin-top: 10px;
+}
+
+#area-rodape{
+    clear: both;
+    background: white ;
+    padding: 15px;
+    text-align: center;
+    
+}
